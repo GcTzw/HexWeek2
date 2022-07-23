@@ -1,0 +1,254 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+
+img{
+    vertical-align: middle;
+}
+
+.wrap{
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;    
+    flex-wrap: wrap;
+}
+
+.jcc{
+    justify-content: center;
+}
+.jcsb{
+    justify-content: space-between;
+}
+
+
+.mt-16{
+    margin-top: 16px;
+}
+.mt-40{
+    margin-top: 40px;    
+}
+.mt-48{
+    margin-top: 48px;
+}
+.mt-56{
+    margin-top: 56px;
+}
+.mt-64{
+    margin-top: 64px;
+}
+.mt-144{
+    margin-top: 144px;
+}
+.mt-308{
+    margin-top: 308px;
+}
+
+.pt-56{
+    padding-top: 56px;
+}
+.pt-64{
+    padding-top: 64px;
+}
+.pb-64{
+    padding-bottom: 64px;
+}
+.pb-160
+{
+    padding-bottom: 160px;
+}
+
+.bg-black{
+    background-color: #000;
+}
+.bg-lightGreen{
+    background-color: lightGreen;
+}
+
+.w-288{
+    width: 288px;
+}
+.w-304{
+    width: 304px;
+}
+.w-412{
+    width: 412px;
+}
+.w-1200{
+    width: 1200px;
+}
+
+.header{
+    padding: 308px 0;
+    color: #fff;
+}
+.upTitle{
+    font-size: 24px;
+    line-height: 42px;
+    text-align: left;
+}
+.subTitle{
+    font-size: 24px;
+    line-height: 1.5;
+    margin-top: 32px;
+    text-align: left;
+}
+.bg-img{
+    background: url(img/banner.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.about
+{
+    text-align: center;
+}
+
+.personInfo{
+    font-size: 24px;
+    line-height: 42px;
+    margin-top: 16px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #000;
+}
+.personInfo li 
+{
+    margin-top: 4px;
+}
+.school{
+    font-size: 24px;
+    line-height: 1.5;
+}
+.workExp li
+{
+    margin-top: 28px;    
+    font-size: 24px;
+    line-height: 42px;
+}
+.dot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.dot::before {
+    content:"";
+    width: 22px;
+    height: 22px;
+    background-color: #891818;
+    border-radius: 50%;
+    margin-right :16px;
+}
+
+.brand{
+    color: #fff;
+    text-align: center;
+}
+.brand h3{
+    font-size: 24px;
+    line-height: 42px;
+    margin-top: 12px;
+}
+.brand p{
+    font-size: 20px;
+    line-height: 1.5;
+    margin-top: 32px;
+}
+.brand ul{
+    margin-top: 68px;
+}
+
+.otherWork p
+{
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
+    margin-top: 16px;
+}
+
+.otherWork ul p
+{
+    text-align: center;
+    margin-top: 16px;
+    font-size: 20px;
+    line-height: 42px;
+}
+
+.footer{
+    color: #fff;
+    text-align: center;
+}
+.footer ul
+{
+    font-size: 24px;
+    line-height: 1.5;
+}
+.footer a{
+    color: #fff;
+    text-decoration: none;
+}
+
+h1{
+    font-size: 80px;
+    line-height: 106px;
+}
+
+h2{
+    font-size: 64px;
+    line-height: 84px;
+    text-align: center;
+}
+
+body{
+    font-family:Microsoft JhengHei,PingFangTC;
+}

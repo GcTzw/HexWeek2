@@ -54,6 +54,22 @@ table {
 img{
     vertical-align: middle;
 }
+h1{
+    font-size: 80px;
+    line-height: 106px;
+    font-weight: 900;
+}
+h2{
+    font-size: 64px;
+    line-height: 84px;
+    text-align: center;
+}
+body{
+    font-family: 'Roboto', 'sans-serif';
+    font-weight: 500;
+    font-style: italic;
+}
+
 
 .wrap{
     margin: 0 auto;
@@ -111,9 +127,6 @@ img{
 .bg-black{
     background-color: #000;
 }
-.bg-lightGreen{
-    background-color: lightGreen;
-}
 
 .w-288{
     width: 288px;
@@ -132,16 +145,21 @@ img{
     padding: 308px 0;
     color: #fff;
 }
+.header img:hover{
+    background-color: blue;
+}
 .upTitle{
     font-size: 24px;
     line-height: 42px;
     text-align: left;
+    font-weight: 700;
 }
 .subTitle{
     font-size: 24px;
     line-height: 1.5;
     margin-top: 32px;
     text-align: left;
+    font-weight: 700;
 }
 .bg-img{
     background: url(img/banner.png);
@@ -164,6 +182,7 @@ img{
 .personInfo li 
 {
     margin-top: 4px;
+    font-weight: 700;
 }
 .school{
     font-size: 24px;
@@ -174,6 +193,7 @@ img{
     margin-top: 28px;    
     font-size: 24px;
     line-height: 42px;
+    font-weight: 700;
 }
 .dot {
     display: flex;
@@ -237,18 +257,7 @@ img{
     color: #fff;
     text-decoration: none;
 }
-
-h1{
-    font-size: 80px;
-    line-height: 106px;
-}
-
-h2{
-    font-size: 64px;
-    line-height: 84px;
-    text-align: center;
-}
-
-body{
-    font-family:Microsoft JhengHei,PingFangTC;
+.footer a:hover{
+    color: blue;
+    text-decoration: underline;
 }
